@@ -7,7 +7,6 @@ html {
 }
 
 a {
-  color: #007bff;
   text-decoration: none;
 }
 
@@ -52,39 +51,32 @@ nav ul li {
 #about {
   position: absolute;
   display: flex;
-  margin:auto;
-  width: 50%; 
   background-color:#666;
   transform: translate(-50%, -50%);
   top: 50%;
-    left: 50%;
+  left: 50%;
 }
 
 #info-container {
-  width: 50%;
   background-color: #ddd;
   margin: 20px;
 }
 
 /* Cards */
 #cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
   padding: 20px;
+  background-color: #333;
 }
 
 .card {
-  display: flex;
-  flex-wrap: wrap;
   text-align: center;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 400px;
- 
+
 }
 
 .main-card {
@@ -108,20 +100,14 @@ nav ul li {
 }
 
 .card-info {
-  text-align: center;
   margin: 20px;
   font-size: 2.5em;
   color: #666;
   font-weight: lighter;
 }
 
-.footer-card {
-  text-align: center;
-}
-
 .footer-card img {
   margin: 20px;
-  height: auto;
   width: 40px;
 }
 .footer-card img:hover {
@@ -130,7 +116,6 @@ transform: scale(1.2);
 
 /* Footer */
 footer {
-  margin-top: auto;
   background-color: #fff;
   padding: 1rem;
   text-align: center;
