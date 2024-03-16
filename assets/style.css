@@ -51,22 +51,63 @@ nav ul li {
 #about {
   position: absolute;
   display: flex;
-  background-color:#666;
-  transform: translate(-50%, -50%);
+  align-items: center;
+  transform: translate(-50%, -45%);
   top: 50%;
   left: 50%;
 }
 
 #info-container {
-  background-color: #ddd;
-  margin: 20px;
+  margin: 20px 20px 20px 10px;
+  width: 40%;
+}
+
+#info-container h1 {
+  font-size: 8em;
+  font-weight: bold;
+  line-height:normal
+}
+
+#info-container h2 {
+  margin: 0 0 20px 0
+}
+
+#info-container input[type="button"] {
+  margin: 15px 0 15px 0;
+  border-radius: 25px;
+  width: 140px;
+  height: 35px;
+  font-weight:bold;
+  border: solid black 1px;
+  background-color: #FFFFFF;
+}
+
+#info-container input[type="button"]:first-child {
+  background-color:#0050FF;
+  color: #fff;
+  border: none;
+}
+
+#info-container input[type="button"]:hover {
+  background-color: #0050FF;
+  color:#fff;
+  border: none;
+}
+
+#info-container input[type="button"]:first-child:hover {
+  background-color: #FFFFFF;
+  color:black;
+  border: black solid 1px;
+}
+
+#info-container p {
+  font-size: 1.2em;
 }
 
 /* Cards */
 #cards-container {
   gap: 20px;
-  padding: 20px;
-  background-color: #333;
+  margin: 20px 10px 20px 20px;
 }
 
 .card {
@@ -74,7 +115,7 @@ nav ul li {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.1);
   width: 400px;
 
 }
@@ -93,7 +134,7 @@ nav ul li {
 
 .card-title {
   text-align: center;
-  margin: 40px;
+  margin: 30px;
   font-size: 30px;
   line-height: 1em;
   font-weight: bold;
