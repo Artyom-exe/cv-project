@@ -1,0 +1,14 @@
+{
+  "aboutMe": [
+    {
+      "image": "public/moi.jpg",
+      "nom": "Lambot",
+      "prenom": "Thomas",
+      "job": "Web Developer",
+      "facebook": "public/facebook.png",
+      "instagram": "public/instagram.png",
+      "linkedin": "public/linkedin.png"
+    }
+  ],
+  "competences": ["blablabla", "blablabla"]
+}
