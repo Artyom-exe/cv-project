@@ -17,7 +17,7 @@ a:hover {
 #app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 #mainBox {
@@ -34,6 +34,9 @@ a:hover {
 /* Navigation */
 nav {
   background-color: #fff;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
 }
 
 nav ul {
@@ -65,7 +68,7 @@ nav ul li {
 #info-container h1 {
   font-size: 8em;
   font-weight: bold;
-  line-height:normal
+  line-height:normal;
 }
 
 #info-container h2 {
@@ -113,11 +116,8 @@ nav ul li {
 .card {
   text-align: center;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: -15px 20px 20px rgba(0, 0, 0, 0.1);
   width: 400px;
-
 }
 
 .main-card {
