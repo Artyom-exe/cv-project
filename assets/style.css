@@ -34,9 +34,10 @@ a:hover {
 /* Navigation */
 nav {
   background-color: #fff;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
-  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul {
@@ -126,6 +127,7 @@ nav ul li {
 }
 
 .card-img {
+  margin: 20px;
   border-radius: 100px;
   width: 60%;
   height: auto;
@@ -133,15 +135,20 @@ nav ul li {
 }
 
 .card-title {
-  text-align: center;
-  margin: 30px;
+  margin: 10px;
   font-size: 30px;
   line-height: 1em;
   font-weight: bold;
 }
 
+.card-line {
+  display: inline-block;
+  width: 50px;
+  border-top: solid 2px #0050FF;
+}
+
 .card-info {
-  margin: 20px;
+  margin: 10px;
   font-size: 2.5em;
   color: #666;
   font-weight: lighter;

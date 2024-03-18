@@ -3,7 +3,8 @@ export function renderCard(user) {
     <div class="card">
       <div class="main-card">
         <img src="${user.image}" alt="${user.nom}" class="card-img">
-        <p class="card-title">${user.nom} <br> ${user.prenom}</p> 
+        <p class="card-title">${user.nom} <br> ${user.prenom}</p>
+        <p class="card-line"></p>
         <p class="card-info">${user.job}</p>
       </div>
       <div class="footer-card">
