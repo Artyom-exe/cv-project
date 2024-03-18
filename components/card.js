@@ -8,7 +8,7 @@ export function renderCard(user) {
         <p class="card-info">${user.job}</p>
       </div>
       <div class="footer-card">
-          <img src="${user.facebook}" alt="logo facebook" class="card-img">
+        <img src="${user.facebook}" alt="logo facebook" class="card-img">
         <img src="${user.instagram}" alt="logo instagram" class="card-img">
         <img src="${user.linkedin}" alt="logo linkedin" class="card-img">
       </div>
