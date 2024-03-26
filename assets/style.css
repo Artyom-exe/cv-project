@@ -177,6 +177,11 @@ nav ul:last-child li {
   font-weight: lighter;
 }
 
+.main-bloc {
+  background-color: white;
+  width: 400px;
+}
+
 .footer-card img {
   margin: 20px;
   width: 40px;
