@@ -12,5 +12,33 @@
   ],
   "competences": ["blablabla", "blablabla"],
   "introduction": "Here's who I am & what I do",
-  "description": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. <br><br> I’m a great place for you to tell a story and let your users know a little more about you."
+  "description": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. <br><br> I’m a great place for you to tell a story and let your users know a little more about you.",
+
+  "experience1": [
+    {
+      "annee": "1995 - 2000",
+      "job": "Web Dev",
+      "entreprise": "l'entreprise",
+      "localisation": "lieu de l'entreprise",
+      "descrition": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.I’m a great place for you to tell a story and let your users know a little more about you."
+    }
+  ],
+  "experience2": [
+    {
+      "annee": "1995 - 2000",
+      "job": "Web Dev",
+      "entreprise": "l'entreprise",
+      "localisation": "lieu de l'entreprise",
+      "descrition": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.I’m a great place for you to tell a story and let your users know a little more about you."
+    }
+  ],
+  "experience3": [
+    {
+      "annee": "1995 - 2000",
+      "job": "Web Dev",
+      "entreprise": "l'entreprise",
+      "localisation": "lieu de l'entreprise",
+      "descrition": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.I’m a great place for you to tell a story and let your users know a little more about you."
+    }
+  ]
 }

@@ -6,8 +6,8 @@ export function renderNav() {
           <li><span>Lambot Thomas</span> / DEVELOPER WEB</li>
       </ul>
       <ul>
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/about/">À Propos</a></li>
+        <li><a href="/index.html">ABOUT ME</a></li>
+        <li><a href="/resume/index.html">RESUME</a></li>
       </ul>
     </nav>
   `;
